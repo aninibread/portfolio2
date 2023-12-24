@@ -24,7 +24,7 @@ export default function Home() {
       </header>
 
       <main className="main-content">
-        <h1 className="intro-title">hiyo, it's anni(w/o the e)</h1>
+        <h1 className="intro-title">hiyo, it's anni (w/o the e)</h1>
         <p className="intro-description">
           uWaterloo biomed eng student trying to figure things out. what's on my mind: neuroscience, law, philosophy, and crafting.
         </p>
