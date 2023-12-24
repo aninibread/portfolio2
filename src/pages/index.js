@@ -45,6 +45,10 @@ export default function Home() {
       </main>
       </div>
       </div>
+      <footer>
+        <p>last updated on 12.21.2023</p>
+        <p>made from scratch with Next.js, Tailwind, and Cloudflare Pages</p>
+      </footer>
     </main>
   )
 }
