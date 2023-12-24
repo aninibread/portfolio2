@@ -1,25 +1,40 @@
 
 const workExperiences = [
     {
-      companyName: 'Tesla',
-      positionName: 'Product Intern',
-      teamName: 'Payment'
+      companyName: '🏎️ tesla',
+      positionName: 'product intern',
+      teamName: 'payments'
     },
     {
-      companyName: 'Wish',
-      positionName: 'Product Intern',
-      teamName: 'Wish Local'
+      companyName: '🌟 wish',
+      positionName: 'product intern',
+      teamName: 'wish local'
     },
     {
-      companyName: 'Cloudflare',
-      positionName: 'Product Intern',
-      teamName: 'Workers'
+      companyName: '⛅ cloudflare',
+      positionName: 'product intern',
+      teamName: 'workers'
     },
     {
-        companyName: 'Wish',
-        positionName: 'Software Intern',
-        teamName: 'Merchant Catalogue'
-      },
+      companyName: '🍷 somm.ai',
+      positionName: 'head of growth',
+      teamName: 'growth & product for b2b saas'
+    },
+    {
+        companyName: '🌟 wish',
+        positionName: 'software intern',
+        teamName: 'merchant catalogue'
+    },
+    {
+      companyName: '🎈 daydream / flixed',
+      positionName: 'product intern',
+      teamName: 'seo growth'
+    },
+    {
+      companyName: '💸 teranet',
+      positionName: 'software intern',
+      teamName: 'asset recovery'
+    },
     // ... more work experiences
   ];
   

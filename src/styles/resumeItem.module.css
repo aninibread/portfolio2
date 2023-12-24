@@ -1,0 +1,24 @@
+/* ResumeItem.module.css */
+
+.resumeItem {
+    padding: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .companyName {
+    font-size: 1.25em;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .positionName {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 2px;
+  }
+  
+  .teamName {
+    font-size: 0.9em;
+    color: #666;
+  }
+  

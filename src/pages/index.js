@@ -1,7 +1,7 @@
 import { Inter } from 'next/font/google'
 import Head from 'next/head'
 import ProjectCard from '../components/project_cards';
-import Timeline from '../components/timeline'
+import ResumeItem from '../components/resumeItem'
 import {Projects} from '../data/card_preview';
 import {workExperiences} from '../data/work_experience';
 
@@ -14,6 +14,7 @@ export default function Home() {
       <div className="container">
       <Head>
         <title>Anni Wang</title>
+        <link rel="icon" href="/profile_favcon.jpeg" />
       </Head>
       <header className="header">
         <div className="logo">🧸</div>
@@ -35,12 +36,12 @@ export default function Home() {
             ))
           }
         </div>
-        <h2 className="intro-header">my experience</h2>
+        <h2 className="intro-header">my experiences</h2>
+        <p>explored areas such as fintech, b2b, b2c, and iaas. worked in various company sizes from 3 to 100k employees: </p>
         <div>
-          {workExperiences.map((experiences, index) => (
-            <Timeline key={index} {...experiences} />
-            ))
-          }
+          {workExperiences.map((experience, index) => (
+            <ResumeItem key={index} {...experience} />
+          ))}
         </div>
       </main>
       </div>
