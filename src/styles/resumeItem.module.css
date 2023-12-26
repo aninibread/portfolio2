@@ -3,22 +3,22 @@
 .resumeItem {
     padding: 5px;
     margin-bottom: 5px;
-  }
+}
   
-  .companyName {
+.companyName {
     font-size: 1.25em;
     color: #333;
     margin-bottom: 5px;
-  }
+}
   
-  .positionName {
+.positionName {
     font-size: 1em;
     color: #666;
     margin-bottom: 2px;
-  }
+}
   
-  .teamName {
+.teamName {
     font-size: 0.9em;
     color: #666;
-  }
+}
   

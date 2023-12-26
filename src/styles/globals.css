@@ -27,59 +27,10 @@ body {
   flex-direction: column;
 }
 
-.main-content{
-  height: 160vh;
-  width: 75%;
-  flex-grow: 1; /* This allows the div to take up all the available space */
-  display: flex;
-  flex-direction: column;
-  justify-content: center; /* This will center the content vertically */
-  align-items: justify; /* This will center the content horizontally */
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.header {
-  display: flex;
-  width: 75%;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 0;
-}
-
 h1, h2, h3 {
   font-weight: 600;
   font-family: 'Montserat', sans-serif;
 }
-
-.intro-title {
-  font-size: 2.2rem; 
-  margin-bottom: 2rem;
-}
-
-.intro-description {
-  font-size: 1.1rem; 
-  line-height: 1.5;
-  margin-bottom: 2rem;
-  font-family: 'Montserat', sans-serif;
-}
-
-.intro-header{
-  font-size: 1.6em; 
-  margin-bottom: 1.5rem;
-}
-
-/* text end*/
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-.logo {
-  font-size: 5rem;
-}
-
 
 /*navbar material*/
 .nav {
@@ -98,48 +49,16 @@ h1, h2, h3 {
   color: lightgray;
 }
 
-
-footer {
-  width: 100%;
-  padding: 100px;
-  text-align: center;
-  font-size: 0.9rem;
+.bio-text {
+  padding: 20px;
+  background-color: #fff7e6; /* Pale gold background */
+  border-radius: 12px; /* Rounded corners */
+  color: black; /* Black text for contrast */
+  background-color: #fff3cc; /* Pale gold */
 }
 
-@media (max-width: 768px) {
-  .header {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .nav {
-    display: flex;
-    align-items: center;      /* Vertically center */
-    height: 60px;             /* Adjust this value as per your design */
-  }
-
-  .logo {
-    width: 80px; 
-    display: block;
-    margin: 0 auto;
-  }
-  .main-content {
-    width: 90%;
-  }
-
-  footer {
-    padding: 50px;
-  }
-  
-}
-
-.cardsGrid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Creates 2 columns */
-  gap: 1rem;
-}
-
-@media (max-width: 768px) {
-  .cardsGrid {
-    grid-template-columns: 1fr; /* 1 column for even smaller screens */
-  }
+.sparkly-text {
+  font-weight: bold;
+  position: relative;
+  color: #064f39; /* Dark forest green */
 }
