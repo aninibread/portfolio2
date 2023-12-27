@@ -62,3 +62,31 @@ h1, h2, h3 {
   position: relative;
   color: #064f39; /* Dark forest green */
 }
+
+.bounce-link-container {
+  text-align: center;
+  padding: 20px 0; /* Add padding at the bottom for spacing */
+}
+
+.bounce-link {
+  display: inline-block;
+  color:gray;
+  text-decoration: none; /* Removes underline from the link */
+  font-size: 1rem; /* Sets the font size similar to the rest of your text */
+  font-weight: normal; /* Regular font weight */
+  margin: 0;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+

@@ -13,7 +13,7 @@ const workExperiences = [
     {
       companyName: '⛅ cloudflare',
       positionName: 'product intern',
-      teamName: 'workers'
+      teamName: 'workers & pages'
     },
     {
       companyName: '🍷 somm.ai',
@@ -35,7 +35,11 @@ const workExperiences = [
       positionName: 'software intern',
       teamName: 'asset recovery'
     },
-    // ... more work experiences
+    {
+      companyName: '⛅ cloudflare',
+      positionName: 'program intern',
+      teamName: 'customer support'
+    },
   ];
   
   export { workExperiences };

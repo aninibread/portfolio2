@@ -1,9 +1,12 @@
 import { Inter } from 'next/font/google'
 import Head from 'next/head'
 import ProjectCard from '../components/project_cards';
-import ResumeItem from '../components/resumeItem'
+import ResumeItem from '../components/resumeItem';
+import VolCard from '../components/volCards';
 import {Projects} from '../data/card_preview';
 import {workExperiences} from '../data/work_experience';
+import {researchExperiences} from '../data/research_experience';
+import {volunteeringExperiences} from '../data/vol_experience';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,8 +20,8 @@ export default function Home() {
       <header className="flex w-full max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 justify-between items-center py-6">
         <div className="logo text-5xl">🧸</div>
         <nav className="nav space-x-4">
-          <a className="nav-item" href="/" title="Info">Info</a>
-          <a className="nav-item" href="/resume" title="Writing">Writing</a>
+          <a className="nav-item" href="/" title="info">info</a>
+          <a className="nav-item" href="/writing" title="writing">writing</a>
         </nav>
       </header>
       <main className="flex-grow w-full max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -42,7 +45,7 @@ export default function Home() {
             <ProjectCard key={index} {...project} />
           ))}
         </div>
-        <h2 className="intro-header text-2xl my-6">my experiences</h2>
+        <h2 className="intro-header text-2xl my-6">my work exp</h2>
         <p className="mb-4">explored areas such as fintech, b2b, b2c, and iaas. worked in various company sizes from 3 to 100k employees: </p>
         <div>
           {workExperiences.map((experience, index) => (
@@ -50,10 +53,22 @@ export default function Home() {
           ))}
         </div>
         <h2 className="intro-header text-2xl my-6">my research exp</h2>
+          {researchExperiences.map((experience, index) => (
+            <ResumeItem key={index} {...experience} />
+          ))}
+        <h2 className="intro-header text-2xl my-6">community service</h2>
+        <div className="cardsGrid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4">
+          {volunteeringExperiences.map((experience, index) => (
+            <VolCard key={index} {...experience} />
+          ))}
+        </div>
+        <div class="bounce-link-container">
+          <a href="/writing" class="bounce-link">See next: my writing! 🖋️</a>
+        </div>
       </main>
       <footer className="w-full max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12 text-center text-sm">
-        <p>last updated on 12.25.2023</p>
-        <p>made from scratch with Next.js, Tailwind, and Cloudflare Pages</p>
+        <p>📅 last updated on 12.25.2023</p>
+        <p>🔨 made from scratch with Next.js, Tailwind, and Cloudflare Pages</p>
       </footer>
     </div>
   )
