@@ -22,6 +22,7 @@ export default function Home() {
         <nav className="nav space-x-4">
           <a className="nav-item" href="/" title="info">info</a>
           <a className="nav-item" href="/writing" title="writing">writing</a>
+          <a className="nav-item" href="/cat" title="cat">cat</a>
         </nav>
       </header>
       <main className="flex-grow w-full max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
