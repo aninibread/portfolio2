@@ -32,7 +32,7 @@ function formatDate(dateString) {
 
 export default function Post({ postData }) {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen pt-10">
       <Head>
         <title>{postData.title}</title>
         <link rel="icon" href="/profile_favcon.jpeg" />
@@ -49,7 +49,7 @@ export default function Post({ postData }) {
 
       <main className="flex-grow w-full max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <article>
-          <h1 className="text-4xl font-bold mb-6">{postData.title}</h1>
+          <h1 className="text-4xl font-bold mb-6 my-4">{postData.title}</h1>
           <div className="mb-4 text-gray-500">
             <p>Created: {formatDate(postData.date)}</p>
           </div>

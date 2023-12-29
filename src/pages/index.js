@@ -63,13 +63,13 @@ export default function Home() {
             <VolCard key={index} {...experience} />
           ))}
         </div>
-        <div class="bounce-link-container">
-          <a href="/writing" class="bounce-link">See next: my writing! 🖋️</a>
+        <div className="bounce-link-container">
+          <a href="/writing" className="bounce-link">See next: my writing! 🖋️</a>
         </div>
       </main>
       <footer className="w-full max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12 text-center text-sm">
         <p>📅 last updated on 12.25.2023</p>
-        <p>🔨 made from scratch with Next.js, Tailwind, and Cloudflare Pages</p>
+        <p>🔨 made from scratch with Next.js, Tailwind, and Cloudflare</p>
       </footer>
     </div>
   )
