@@ -11,10 +11,16 @@
     margin-bottom: 5px;
 }
   
-.positionName {
+.positionName1 {
     font-size: 1em;
     color: #666;
     margin-bottom: 2px;
+}
+
+.positionName2 {
+    font-size: 1em;
+    color: #666;
+    margin-top: 11px;
 }
   
 .teamName {

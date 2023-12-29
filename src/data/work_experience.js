@@ -2,43 +2,37 @@
 const workExperiences = [
     {
       companyName: '🏎️ tesla',
-      positionName: 'product intern',
-      teamName: 'payments'
+      positionName1: '🎁 product intern',
+      teamName1: 'payments'
     },
     {
       companyName: '🌟 wish',
-      positionName: 'product intern',
-      teamName: 'wish local'
+      positionName1: '🎁 product intern',
+      teamName1: 'wish local',
+      positionName2: '💻 software intern',
+      teamName2: 'merchant catalogue',
     },
     {
       companyName: '⛅ cloudflare',
-      positionName: 'product intern',
-      teamName: 'workers & pages'
+      positionName1: '🎁 product intern',
+      teamName1: 'workers & pages',
+      positionName2: '📦 technical program intern',
+      teamName2: 'customer support'
     },
     {
       companyName: '🍷 somm.ai',
-      positionName: 'head of growth',
-      teamName: 'growth & product for b2b saas'
-    },
-    {
-        companyName: '🌟 wish',
-        positionName: 'software intern',
-        teamName: 'merchant catalogue'
+      positionName1: '🌱 head of growth',
+      teamName1: 'growth & product for b2b saas'
     },
     {
       companyName: '🎈 daydream / flixed',
-      positionName: 'product intern',
-      teamName: 'seo growth'
+      positionName1: '🎁 product intern',
+      teamName1: 'seo growth'
     },
     {
       companyName: '💸 teranet',
-      positionName: 'software intern',
-      teamName: 'asset recovery'
-    },
-    {
-      companyName: '⛅ cloudflare',
-      positionName: 'program intern',
-      teamName: 'customer support'
+      positionName1: '💻 software intern',
+      teamName1: 'asset recovery'
     },
   ];
   
