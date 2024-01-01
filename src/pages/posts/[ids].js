@@ -2,6 +2,7 @@ import { getSortedPostsData, getPostData } from '../../lib/posts';
 import Head from 'next/head';
 import Navbar from '../../components/navbar';
 import Footer from '../../components/footer';
+import styles from '../../styles/markdownStyles.module.css';
 
 export async function getStaticPaths() {
   
@@ -42,9 +43,9 @@ export default function Post({ postData }) {
           <div className="mb-4 text-gray-500">
             <p>Created: {formatDate(postData.date)}</p>
           </div>
-          <div
-            className="prose lg:prose-xl max-w-none"
-            dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
+          <div 
+            className={`${styles.markdown} prose lg:prose-xl max-w-none mb-4`}
+            dangerouslySetInnerHTML={{ __html: postData.contentHtml }} 
           />
         </article>
       </main>

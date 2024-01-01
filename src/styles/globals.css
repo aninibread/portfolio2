@@ -8,14 +8,6 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 /* text material*/
 body {
   font-family: 'Montserat', sans-serif;
@@ -31,6 +23,7 @@ h1, h2, h3 {
   font-weight: 600;
   font-family: 'Montserat', sans-serif;
 }
+
 
 /*navbar material*/
 .nav {

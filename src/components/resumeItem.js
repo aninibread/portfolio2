@@ -5,8 +5,10 @@ const ResumeItem = ({ companyName, positionName1, teamName1, positionName2, team
   return (
     <div className={styles.resumeItem}>
       <h3 className={styles.companyName}>{companyName}</h3>
+      
       <p className={styles.positionName1}>{positionName1}</p>
       <p className={styles.teamName}>{teamName1}</p>
+
       <p className={styles.positionName2}>{positionName2}</p>
       <p className={styles.teamName}>{teamName2}</p>
     </div>
