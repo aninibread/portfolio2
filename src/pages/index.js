@@ -36,7 +36,7 @@ export default function Home() {
           </div>
         </div>
         <h2 className="intro-header text-2xl my-6">some projects</h2>
-        <div className="cardsGrid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4">
+        <div className="cardsGrid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {Projects.map((project, index) => (
             <ProjectCard key={index} {...project} />
           ))}

@@ -25,9 +25,15 @@ export async function getStaticProps({ params }) {
 }
 
 function formatDate(dateString) {
-  const options = { year: 'numeric', month: 'long', day: 'numeric' };
-  return new Date(dateString).toLocaleDateString(undefined, options);
+  const options = { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' };
+  // Split the date string into parts
+  const [year, month, day] = dateString.split('-');
+  // Create a new Date object with the local timezone
+  const date = new Date(Date.UTC(year, month - 1, day));
+  // Return the formatted date string
+  return date.toLocaleDateString(undefined, options);
 }
+
 
 export default function Post({ postData }) {
   return (

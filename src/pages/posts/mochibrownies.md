@@ -1,6 +1,6 @@
 ---
 title: 'matcha mochi brownies!'
-date: '2023-01-01'
+date: '2023-01-02'
 summary: 'my recipe for matcha mochi brownies, inspired by Hawaiian butter brownies.'
 ---
 # special receipe

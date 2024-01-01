@@ -1,6 +1,6 @@
 ---
-title: 'Fun Personal Projects Shortlist'
-date: '2023-12-28'
+title: 'fav quotes'
+date: '2024-01-12'
 summary: 'A shortlist of fun personal projects I can work on and their progress'
 ---
 

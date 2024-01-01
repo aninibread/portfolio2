@@ -1,6 +1,6 @@
 ---
-title: 'My Third Post'
-date: '2023-01-04'
+title: 'my grips with 3body'
+date: '2023-01-10'
 summary: 'here is a summary of the post'
 ---
 

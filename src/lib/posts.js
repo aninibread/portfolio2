@@ -32,15 +32,10 @@ export function getSortedPostsData(id) {
         };
     });
   
-    // Sort posts by date
-    return allPostsData.sort(({ date: a }, { date: b }) => {
-      if (a < b) {
-        return 1;
-      } else if (a > b) {
-        return -1;
-      } else {
-        return 0;
-      }
+    return allPostsData.sort((a, b) => {
+      const dateA = new Date(a.date);
+      const dateB = new Date(b.date);
+      return dateB - dateA; // For descending order
     });
 }
 

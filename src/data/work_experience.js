@@ -15,7 +15,7 @@ const workExperiences = [
     {
       companyName: '⛅ cloudflare',
       positionName1: '🎁 product intern',
-      teamName1: 'workers & pages',
+      teamName1: 'workers & pages (my blog post)',
       positionName2: '📦 technical program intern',
       teamName2: 'customer support'
     },
