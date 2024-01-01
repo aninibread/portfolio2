@@ -60,6 +60,10 @@ export default function Cat() {
                 </div>
             ))}
         </div>
+        <br/>
+        <div className="bounce-link-container">
+          <a href="/writing" className="bounce-link">See: my writing! 🖋️</a>
+        </div>
       </main>
       <Footer />
     </div>

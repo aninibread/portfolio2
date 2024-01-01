@@ -48,3 +48,43 @@
     border-left: 3px solid #333;
     margin-bottom: 0.5rem;
 }
+
+.markdown pre {
+    background-color: #f7f7f7; /* Light grey background for the code block */
+    border: 1px solid #e1e1e8; /* Light border for the code block */
+    border-left: 3px solid #e0bb4c; /* Accent border to the left for emphasis */
+    overflow-x: auto; /* Allows horizontal scrolling if code overflows */
+    padding: 1em; /* Spacing inside the code block */
+    margin: 1em 0; /* Vertical spacing for before and after the code block */
+    border-radius: 4px; /* Rounded corners for the code block */
+    white-space: pre-wrap; /* Ensures that lines do not break */
+    word-break: break-word; /* Prevents long strings from overflowing */
+  }
+  
+  .markdown pre code {
+    font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace; /* Monospaced font for code */
+    display: block; /* Makes the code element a block to fill the pre container */
+    line-height: 1.5; /* Spacing between lines of code */
+    color: #333; /* Color of the text for the code */
+    font-size: 0.85em; /* Font size for the code */
+  }
+  
+  .markdown table {
+    width: 100%; /* Full-width tables */
+    border-collapse: collapse; /* Collapses the border lines */
+    margin: 1em 0; /* Adds margin around the table */
+  }
+  
+  .markdown th,
+  .markdown td {
+    padding: 0.5em 1em; /* Padding within table cells */
+    border: 1px solid #ddd; /* Border color for table cells */
+    text-align: left; /* Aligns text to the left in cells */
+    line-height: 1.4; /* Line height for text within cells */
+  }
+  
+  .markdown th {
+    font-weight: bold; /* Makes the header text bold */
+  }
+  
+  

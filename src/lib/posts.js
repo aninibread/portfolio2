@@ -3,6 +3,7 @@ import path from 'path';
 import matter from 'gray-matter';
 import { remark } from 'remark';
 import html from 'remark-html';
+import Gfm from 'remark-gfm';
 import parse from 'remark-parse';
 
 const postsDirectory = path.join(process.cwd(), 'src/pages/posts');
@@ -54,6 +55,7 @@ export async function getPostData(id) {
     const processedContent = await remark()
     .use(html, { sanitize: false }) // Set sanitize to false to allow HTML tags
     .use(parse)
+    .use(Gfm)
     .process(matterResult.content);
     const contentHtml = processedContent.toString();
   

@@ -19,13 +19,26 @@ asfsdfdflj sdjfdsf dsf sdkdf.
 2. dsf
 3. dsf
 
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
+| testing     | .           |
+
+<div style="display: flex; justify-content: space-around; align-items: center;">
+  <img src="https://pub-4b3c8e02204249afb15ca13b88ec64ef.r2.dev/sweet-rice-flour.jpg" alt="Alt text 1" style="max-width: 25%; height: auto;"/>
+  <img src="https://pub-4b3c8e02204249afb15ca13b88ec64ef.r2.dev/canned-coconut-milk.png" alt="Alt text 2" style="max-width: 30%; height: auto;"/>
+</div>
+
+
 ## Step 1: Wet Ingredients
 - Butter | 2 sticks | Softened
 - Brown Sugar | 1 cup | 
 - Sugar | 1/2 cup white | 
 
+```
 Mix together butter and sugar in a large bowl.
-
+```
 - Eggs | 2 | 
 - Vanilla | 2 tsp | 
 
