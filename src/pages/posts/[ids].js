@@ -54,6 +54,9 @@ export default function Post({ postData }) {
             dangerouslySetInnerHTML={{ __html: postData.contentHtml }} 
           />
         </article>
+        <div className="bounce-link-container">
+          <a href="/writing" className="bounce-link">go back to writings 🖋️</a>
+        </div>
       </main>
       <Footer />
     </div>

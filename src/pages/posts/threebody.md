@@ -1,6 +1,6 @@
 ---
-title: 'my grips with 3body'
-date: '2023-01-01'
+title: 'my grips with 3body 🌌'
+date: '2024-01-04'
 summary: 'My critic of the acclaimed sci-fi series The Three Body Problem 🟠 🟠 🟠'
 ---
 ```

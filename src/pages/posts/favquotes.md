@@ -22,7 +22,7 @@ summary: 'Some of my favourite quotes from different pieces of media.'
 > "Prestige is just fossilized inspiration. If you do anything well enough, you'll make it prestigious."
 
 **My mother about my lack of a fashion sense 🎤**
-> "Anni, how could you have fun, if you don't even look like you are having fun?"
+> "Anni, how can you have fun, if you don't look like you are having fun?"
 
 **Bravado by Lorde 🎵**
 > "It's in your blood stream. A collision of atoms that happens before your eyes. It's a marathon run or a mountain you scale without thinking of size."

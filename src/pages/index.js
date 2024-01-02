@@ -59,7 +59,7 @@ export default function Home() {
           ))}
         </div>
         <div className="bounce-link-container">
-          <a href="/writing" className="bounce-link">See next: my writing! 🖋️</a>
+          <a href="/writing" className="bounce-link">see next: my writing! 🖋️</a>
         </div>
       </main>
       <Footer />
