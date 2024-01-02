@@ -2,6 +2,7 @@
 title: 'matcha mochi brownies! 🍵'
 date: '2024-01-02'
 summary: 'My recipe for matcha mochi brownies, inspired by Hawaiian butter brownies.'
+tags: ['recipe', 'life', 'food']
 ---
 # Background & Intro
 I love baking, especially, making Asian deserts to share with my friends. Baking at University can be difficult, as I don't often have all the right equipment and ingredients to make anything too complex. So here is a simple recipe for a really yummy and unique brownie that you can make for your self and friends.

@@ -1,30 +1,26 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import { getSortedPostsData } from '../lib/posts';
+import { getSortedPostsData, getSortedProjectPostsData } from '../lib/posts';
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 
 export async function getStaticProps() {
   const allPostsData = await getSortedPostsData();
+  const allProjectPostsData = await getSortedProjectPostsData();
   return {
     props: {
-      allPostsData
+      allPostsData,
+      allProjectPostsData
     }
   };
 }
 
 
-export default function Blog({ allPostsData }) {
-  function formatDate(dateString) {
-    const options = { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' };
-    // Split the date string into parts
-    const [year, month, day] = dateString.split('-');
-    // Create a new Date object with the local timezone
-    const date = new Date(Date.UTC(year, month - 1, day));
-    // Return the formatted date string
-    return date.toLocaleDateString(undefined, options);
-  }
-  
+export default function Blog({ allPostsData, allProjectPostsData }) {
+  const formatDate = (dateString) => {
+  const options = { year: 'numeric', month: 'long', day: 'numeric' };
+  return new Date(dateString).toLocaleDateString(undefined, options);
+  };
 
   return (
     <div className="flex flex-col min-h-screen pt-10">
@@ -42,12 +38,35 @@ export default function Blog({ allPostsData }) {
                 <h2 className="text-2xl font-semibold text-gray-700 hover:text-blue-800 hover:underline cursor-pointer">{title}</h2>
               </Link>
               <p className="text-sm text-gray-500">{formatDate(date)}</p>
+              <div className="tags">
+                {tags.map(tag => (
+                  <span key={tag} className="tag">{tag}</span>
+                ))}
+              </div>
+              <p className="mt-1 text-gray-500">{summary}</p>
+            </div>
+          ))}
+        </div>
+        <br/>
+        <h1 className="text-4xl font-bold mb-6 my-4">🕹️ project docs 💻</h1>
+        <div className="divide-y divide-gray-200">
+          {allProjectPostsData.map(({ id, date, title, summary, tags }) => (
+            <div key={id} className="py-4">
+              <Link href={`/project-posts/${id}`} passHref>
+                <h2 className="text-2xl font-semibold text-gray-700 hover:text-blue-800 hover:underline cursor-pointer">{title}</h2>
+              </Link>
+              <p className="text-sm text-gray-500">{formatDate(date)}</p>
+              <div className="project-tags">
+                {tags.map(tag => (
+                  <span key={tag} className="project-tag">{tag}</span>
+                ))}
+              </div>
               <p className="mt-1 text-gray-500">{summary}</p>
             </div>
           ))}
         </div>
         <div className="bounce-link-container">
-          <a href="/cat" className="bounce-link">look at my cat 🐱</a>
+          <a href="/cat" className="bounce-link">Look at my cat 🐱</a>
         </div>
       </main>
       <Footer />

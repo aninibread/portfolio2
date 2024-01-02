@@ -24,6 +24,11 @@ h1, h2, h3 {
   font-family: 'Montserat', sans-serif;
 }
 
+a:hover {
+  color:#064f39;
+  text-decoration: underline;
+}
+
 
 /*navbar material*/
 .nav {
@@ -70,6 +75,29 @@ h1, h2, h3 {
   margin: 0;
   animation: bounce 2s infinite;
 }
+
+.project-tag, .tag {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 0.25rem 0.5rem; /* Adjust padding to control height */
+  margin: 0.25rem 0.5rem 0.25rem 0; /* Add more vertical margin for spacing */
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem; /* Add more bottom margin for spacing */
+}
+
+.tag{
+  background-color: #e0e0e0;
+}
+
+.project-tag {
+  background-color: #efe6af;
+}
+
+/* Add some space above the tags container */
+.project-tags, .tags {
+  margin-top: 0.2rem; /* Add space above the tags */
+}
+
 
 @keyframes bounce {
   0%, 20%, 50%, 80%, 100% {

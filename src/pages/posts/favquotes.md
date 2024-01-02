@@ -2,6 +2,7 @@
 title: 'fav quotes'
 date: '2024-01-02'
 summary: 'Some of my favourite quotes from different pieces of media.'
+tags: ['book', 'life']
 ---
 
 <img src="https://pub-4b3c8e02204249afb15ca13b88ec64ef.r2.dev/rock-bottom.gif" width=300px height=auto/>

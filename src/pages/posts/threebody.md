@@ -1,7 +1,8 @@
 ---
 title: 'my grips with 3body 🌌'
 date: '2024-01-04'
-summary: 'My critic of the acclaimed sci-fi series The Three Body Problem 🟠 🟠 🟠'
+summary: 'My critic of the acclaimed sci-fi series The Three Body Problem. 🟠 🟠 🟠'
+tags: ['book']
 ---
 ```
 ⛔ Spoilers ahead!! You have been warned.
