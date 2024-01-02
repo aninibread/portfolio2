@@ -38,10 +38,17 @@
 }
 
 
-.markdown ol, .markdown li, .markdown p, .markdown h4, .markdown img {
+.markdown ol, 
+.markdown li, 
+.markdown p, 
+.markdown h4 {
     margin-bottom: 0.5rem; 
 }
 
+.markdown img {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem; 
+}
 
 .markdown blockquote {
     padding-left: 1rem;
@@ -59,32 +66,32 @@
     border-radius: 4px; /* Rounded corners for the code block */
     white-space: pre-wrap; /* Ensures that lines do not break */
     word-break: break-word; /* Prevents long strings from overflowing */
-  }
-  
-  .markdown pre code {
+}
+
+.markdown pre code {
     font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace; /* Monospaced font for code */
     display: block; /* Makes the code element a block to fill the pre container */
     line-height: 1.5; /* Spacing between lines of code */
     color: #333; /* Color of the text for the code */
     font-size: 0.85em; /* Font size for the code */
-  }
+}
   
-  .markdown table {
+.markdown table {
     width: 100%; /* Full-width tables */
     border-collapse: collapse; /* Collapses the border lines */
     margin: 1em 0; /* Adds margin around the table */
-  }
+}
   
-  .markdown th,
-  .markdown td {
+.markdown th,
+.markdown td {
     padding: 0.5em 1em; /* Padding within table cells */
     border: 1px solid #ddd; /* Border color for table cells */
     text-align: left; /* Aligns text to the left in cells */
     line-height: 1.4; /* Line height for text within cells */
-  }
+}
   
-  .markdown th {
+.markdown th {
     font-weight: bold; /* Makes the header text bold */
-  }
+}
   
   
