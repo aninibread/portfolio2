@@ -5,7 +5,12 @@ summary: 'My recipe for matcha mochi brownies, inspired by Hawaiian butter brown
 tags: ['recipe', 'life', 'food']
 ---
 # Background & Intro
-I love baking, especially, making Asian deserts to share with my friends. Baking at University can be difficult, as I don't often have all the right equipment and ingredients to make anything too complex. So here is a simple recipe for a really yummy and unique brownie that you can make for your self and friends.
+I love baking, especially, making Asian deserts to share with my family & friends. Baking at University can be difficult, as I don't often have all the right equipment and ingredients to make anything too complex. So here is a simple recipe for a really yummy and unique brownie that you can make within 1 hour.
+
+## Taste Profile
+This desert typically tastes like a chewy mochi cake. For those not familiar with mochi, the texture is like a floury and stretchy gummy. The flavor is like rice with a hint of natural sweetness. By adding the matcha powder, the flavor is enhanced with a dry but sophisticatedly bitter tea taste. 
+
+In this recipe, there is an addition of butter. I personally experimented with the addition of butter and have found that it's able to add a stronger milk flavour, and make the consistency more cake-like, which I preferred more. But it is an optional ingredient, and without butter, the desert is still very tasty and resembles more of the typical mochi desert.
 
 <img src="https://pub-4b3c8e02204249afb15ca13b88ec64ef.r2.dev/matcha-mochi-brownies.jpg" width=300px height=auto/>
 
@@ -15,17 +20,17 @@ I love baking, especially, making Asian deserts to share with my friends. Baking
 
 What I love about this recipe is that you don't have to be too precise. Feel free to slightly adjust sugar and matcha levels based on your taste.
 
-| Ingredients              | Quantity    |
-| ------------------------ | ----------- |
-| glutinous rice flour     | 1.5 cup     |
-| cane sugar               | 1/3 cup     |
-| unsalted butter *melted* | 5 tbsp      |
-| baking powder            | 1 tsp       |
-| large egg                | 1 egg       |
-| matcha powder            | 2 tbsp      |
-| canned coconut milk      | 1 cup       |
-| salt                     | 1 pinch     |
-| chocolate chip           | 1/2 cup     |
+| Ingredients                         | Quantity    |
+| ----------------------------------- | ----------- |
+| glutinous rice flour                | 1.5 cup     |
+| cane sugar                          | 1/3 cup     |
+| unsalted butter *melted* (optional) | 5 tbsp      |
+| baking powder                       | 1 tsp       |
+| large egg                           | 1 egg       |
+| matcha powder                       | 2 tbsp      |
+| canned coconut milk                 | 1 cup       |
+| salt                                | 1 pinch     |
+| chocolate chip                      | 1/2 cup     |
 
 Here are some of the brands I'd recommend for the different type of ingredients. For glutinous rice flour you can either use the Thai brand shown below, or Mochiko. Having tried both, I actually prefer the Thai brand, but regardless, the difference isn't big.
 

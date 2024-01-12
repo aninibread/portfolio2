@@ -9,7 +9,7 @@ import {researchExperiences} from '../data/research_experience';
 import {volunteeringExperiences} from '../data/vol_experience';
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import EmailCopyStyle from '../styles/EmailCopyFeedback.module.css';
 
 const inter = Inter({ subsets: ['latin'] })
@@ -27,6 +27,23 @@ export default function Home() {
     setIsCopied(true);
     setTimeout(() => setIsCopied(false), 2000); // Reset after 2 seconds
   };
+
+  useEffect(() => {
+      // Only run this code on the client side
+      const script = document.createElement('script');
+      script.async = true;
+      script.src = 'https://embed.tawk.to/6465234174285f0ec46c1008/1h0lh3elo';
+      script.charset = 'UTF-8';
+      script.setAttribute('crossorigin', '*');
+      
+      // Append the script to the body
+      document.body.appendChild(script);
+  
+      // Optional: Clean up script when component unmounts
+      return () => {
+        document.body.removeChild(script);
+      };
+    }, []);
 
   return (
     <div className="flex flex-col min-h-screen pt-10">
@@ -66,7 +83,7 @@ export default function Home() {
           ))}
         </div>
         <h2 className="intro-header text-2xl my-6">work exp</h2>
-        <p className="mb-4">explored areas such as fintech, b2b, b2c, and iaas. worked in various company sized from 3 to 100k employees: </p>
+        <p className="mb-4">Explored areas such as fintech, b2b, b2c, and iaas. worked in various company sized from 3 to 100k employees: </p>
         <div>
           {workExperiences.map((experience, index) => (
             <ResumeItem key={index} {...experience} />

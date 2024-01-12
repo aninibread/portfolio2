@@ -15,7 +15,7 @@ const workExperiences = [
     {
       companyName: '⛅ cloudflare',
       positionName1: 'product intern 🎁',
-      teamName1: 'workers & pages (my blog post)',
+      teamName1: [{ text: 'workers & pages ', url: null }, { text: '(my blog post)', url: 'https://blog.cloudflare.com/race-ahead-with-build-caching' }],
       positionName2: 'technical program intern 📦',
       teamName2: 'customer support'
     },
