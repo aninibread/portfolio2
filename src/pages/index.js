@@ -36,7 +36,6 @@ export default function Home() {
       script.charset = 'UTF-8';
       script.setAttribute('crossorigin', '*');
       
-      // Append the script to the body
       document.body.appendChild(script);
   
       // Optional: Clean up script when component unmounts
@@ -57,7 +56,7 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
           <div className="md:col-span-2">
             <p className="bio-text text-lg mb-2">
-              <span className="sparkly-text">uWaterloo biomed eng</span> student trying to figure things out. what's on my mind: neuroscience, law, philosophy, and crafting.
+              <span className="sparkly-text">uWaterloo biomed eng</span> student trying to figure things out. what's on my mind: HCI, neuroscience, law, philosophy, and crafting.
             </p>
           </div>
           <div className="md:col-span-1">
