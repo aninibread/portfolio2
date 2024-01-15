@@ -2,6 +2,8 @@ import { S3 } from 'aws-sdk';
 
 const endpoint = 'https://323f42859527b406beadd91bff779583.r2.cloudflarestorage.com';
 
+
+
 export default async function handler(req, res) {
   const s3 = new S3({
     accessKeyId: process.env.R2_ACCESS_KEY,
@@ -26,7 +28,7 @@ export default async function handler(req, res) {
     console.error('Error listing media from R2:', error);
     res.status(500).json({ error: 'Error listing media from R2', details: error.message });
   }
+  
+  const runtime = 'edge';
 }
-
-export const runtime = 'edge';
 
