@@ -8,7 +8,6 @@ const Navbar = () => {
       <nav className="nav space-x-4">
         <Link href="/" title="info">info</Link>
         <Link href="/writing" title="writing">writing</Link>
-        <Link href="/cat" title="cat">cat</Link>
       </nav>
     </header>
   );
