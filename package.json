@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@aws-sdk/client-s3": "^3.490.0",
+    "@aws-sdk/s3-request-presigner": "^3.490.0",
     "@mdx-js/loader": "^3.0.0",
     "@next/mdx": "^14.0.4",
     "aws-sdk": "^2.1527.0",
