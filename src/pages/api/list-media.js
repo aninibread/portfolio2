@@ -11,7 +11,7 @@ export default async function handler(req, res) {
   });
   try {
     const data = await s3.listObjectsV2({
-      Bucket: process.env.R2_BUCKET_NAME,
+      Bucket: 'cat-media',
     }).promise();
 
     const media = data.Contents.map(item => {
