@@ -1,18 +1,26 @@
-import { S3 } from 'aws-sdk';
+import { S3Client, ListObjectsV2Command } from "@aws-sdk/client-s3";
 
 const endpoint = 'https://323f42859527b406beadd91bff779583.r2.cloudflarestorage.com';
 
+export const runtime = 'edge';
+
 export default async function handler(req, res) {
-  const s3 = new S3({
-    accessKeyId: process.env.R2_ACCESS_KEY,
-    secretAccessKey: process.env.R2_SECRET_KEY,
+  const s3 = new S3Client({
+    credentials: {
+      accessKeyId: process.env.R2_ACCESS_KEY,
+      secretAccessKey: process.env.R2_SECRET_KEY,
+    },
     endpoint: endpoint,
     signatureVersion: 'v4',
+    region: 'us-east-1',
   });
+
+  const listObjectsCommand = new ListObjectsV2Command({
+    Bucket: process.env.R2_BUCKET_NAME,
+  });
+
   try {
-    const data = await s3.listObjectsV2({
-      Bucket: process.env.R2_BUCKET_NAME,
-    }).promise();
+    const data = await s3.send(listObjectsCommand);
 
     const media = data.Contents.map(item => {
       return {
