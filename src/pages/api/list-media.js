@@ -1,6 +1,6 @@
 export const runtime = 'edge';
 
-export async function handler(req, res) {
+export default async function handler(req, res) {
   try {
     const data = await CAT_MEDIA_BUCKET.list({ prefix: '' }); // Adjust the prefix as needed
 
